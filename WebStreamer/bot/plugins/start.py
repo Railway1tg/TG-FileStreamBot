@@ -19,9 +19,6 @@ async def start(_, m: Message):
                 [
                     InlineKeyboardButton('🌹 𝕊𝕠𝕦𝕣𝕔𝕖\t𝕔𝕠𝕕𝕖', url='tg://resolve?domain=MD_BOTZ&post=10'),
                     InlineKeyboardButton('👩‍💻 𝕄𝕒𝕤𝕥𝕖𝕣', url='https://telegram.me/MD_OWNER')
-                ],
-                [
-                    InlineKeyboardButton('**𝑯𝒐𝒘\t𝒖𝒔𝒆\t𝒕𝒉𝒊𝒔\t𝒃𝒐𝒕\t🤔**', url='tg://resolve?domain=MD_BOTZ&post=20')
                 ]
             ]
         )

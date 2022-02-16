@@ -16,7 +16,7 @@ async def start(_, m: Message):
                 ],
                 [
                     InlineKeyboardButton('🌹 Source code 🌹', url='https://github.com/EverythingSuckz/TG-FileStreamBot'),
-                    InlineKeyboardButton('👩‍💻 Master', url='https://telegram.me/MD_BOTZ_OWNER')
+                    InlineKeyboardButton('👩‍💻 Master', url='https://telegram.me/MD_OWNER')
                 ]
             ]
         )

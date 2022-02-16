@@ -9,8 +9,7 @@ from WebStreamer.bot import StreamBot
 @StreamBot.on_message(filters.command(["start", "help"]))
 async def start(_, m: Message):
     await m.reply(
-        f'Hi {t𝙘𝙝𝙚𝙘𝙠\t/help.\n\n🚨\t𝗣𝗼𝗿𝗻\t𝗖𝗼𝗻𝘁𝗲𝗻𝘁𝘀\t"
-        "𝐰𝐢𝐥𝐥\t𝐛𝐞\t𝐠𝐢𝐯𝐞𝐬\t𝐲𝐨𝐮\t𝙋𝙀𝙍𝙈𝘼𝙉𝙀𝙉𝙏\t𝘽𝘼𝙉\t🚨\n\n🍃\tBᴏᴛ\tMade\tBʏ\t:\t@MD_OWNER",
+        f'Hi {t𝙘𝙝𝙚𝙘𝙠\t/help.\n\n🚨\t𝗣𝗼𝗿𝗻\t𝗖𝗼𝗻𝘁𝗲\t𝐲𝐨𝐮\t𝙋𝙀𝙍𝙈𝘼𝙉𝙀𝙉𝙏\t𝘽𝘼𝙉\t🚨\n\n🍃\tBᴏᴛ\tMade\tBʏ\t:\t@MD_OWNER",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [

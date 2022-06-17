@@ -41,11 +41,9 @@ async def media_receive_handler(_, m: Message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("📥 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻 📥", url=stream_link)'
+              InlineKeyboardButton("📥 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻 📥", url=stream_link),
               InlineKeyboardButton('🍬 ℙℝ𝕆𝕁𝔼ℂ𝕋 🍬', url='tg://resolve?domain=MD_BOTZ')
              ]
             ]
         ),
     )
-        
- 

@@ -33,7 +33,7 @@ async def media_receive_handler(_, m: Message):
     logging.info(f"Generated link: {stream_link} for {m.from_user.first_name}")
     await m.reply_photo(
         photo="https://telegra.ph/file/847ab1940a2a2246c0417.jpg",
-        caption="<b><u>𝗬𝗼𝘂𝗿 𝗹𝗶𝗻𝗸 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱! 👍</u></b>\n\n<b><u>𝗪𝗮𝘁𝗰𝗵 𝗢𝗻𝗹𝗶𝗻𝗲 👇</u></b>\n\n<code>{}</code>\n(<a href='{}'>shortened</a>)\n\n📝<b><u> 𝗡𝗢𝗧𝗘 </u></b>:\t𝑳𝑰𝑵𝑲 𝑾𝑶𝑵'𝑻 𝑬𝑿𝑷𝑰𝑹𝑬 𝑻𝑰𝑳𝑳 𝑰 𝑫𝑬𝑳𝑬𝑻𝑬\n\n🍃 Bᴏᴛ Made Bʏ : @MD_OWNER\n\n┈┈┈••✿ @MD_BOTZ ✿••┈┈┈".format(
+        caption="<b><u>𝗬𝗼𝘂𝗿 𝗹𝗶𝗻𝗸 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱! 👍</u></b>\n\n<b><u>𝗖𝗼𝗽𝘆 𝘁𝗵𝗶𝘀 𝗹𝗶𝗻𝗸 👇</u></b>\n\n<code>{}</code>\n(<a href='{}'>shortened</a>)\n\n📝<b><u> 𝗡𝗢𝗧𝗘 </u></b>:\t𝑳𝑰𝑵𝑲 𝑾𝑶𝑵'𝑻 𝑬𝑿𝑷𝑰𝑹𝑬 𝑻𝑰𝑳𝑳 𝑰 𝑫𝑬𝑳𝑬𝑻𝑬\n\n🍃 Bᴏᴛ Made Bʏ : @MD_OWNER\n\n┈┈┈••✿ @MD_BOTZ ✿••┈┈┈".format(
             stream_link, short_link
         ),
         quote=True,

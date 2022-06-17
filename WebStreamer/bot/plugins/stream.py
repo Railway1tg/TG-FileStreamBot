@@ -33,7 +33,7 @@ async def media_receive_handler(_, m: Message):
     logging.info(f"Generated link: {stream_link} for {m.from_user.first_name}")
     await m.reply_photo(
         photo="https://telegra.ph/file/847ab1940a2a2246c0417.jpg",
-        caption="<code>{}</code>\n(<a href='{}'>shortened</a>)".format(
+        caption="<b><u>𝗬𝗼𝘂𝗿 𝗹𝗶𝗻𝗸 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱! 👍</u></b>\n\n<b><u>𝗪𝗮𝘁𝗰𝗵 𝗢𝗻𝗹𝗶𝗻𝗲 👇</u></b>\n\n<code>{}</code>\n(<a href='{}'>shortened</a>)".format(
             stream_link, short_link
         ),
         quote=True,
